@@ -1,0 +1,31 @@
+# Build output and binaries
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# Build directories
+build/
+bin/
+out/
+.cache/
+
+# Wireshark / PCAP captures generated during simulations & tests
+*.pcap
+*.pcapng
+
+# IDE and Editor files
+.vscode/
+.vs/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+Thumbs.db
+[Dd]esktop.ini
+.DS_Store
